@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/app.css" type="text/css" rel="stylesheet">
+    <script src="//use.typekit.net/ksj5eqh.js"></script>
+    <script>try {
+        Typekit.load();
+    } catch (e) {
+    }</script>
+    <title>Zachary Aman</title>
+</head>
+<body>
+<div class="wblock">
+    <a href="index.html">Home</a>
+</div>
+<div class="wblock">
+    <div class="layer_container">
+        <img src="img/zack%20timeline-01.svg">
+        <img src="img/zack%20timeline-09.svg" class="layered_img" id="time1">
+    </div>
+    <div class="tblock">
+        <p class="title tk-adelle-sans">
+            Present
+        </p>
+
+        <p class="description tk-adelle alwaysshow">
+            Design, testing, and prototyping of problem selection features to encourage a mastery orientation in students.
+        </p>
+    </div>
+</div>
+<div class="wblock">
+    <div class="layer_container">
+        <img src="img/zack%20timeline-01.svg">
+        <img src="img/zack%20timeline-08.svg" class="layered_img" id="time2">
+    </div>
+    <div class="tblock">
+        <p class="title tk-adelle-sans">
+            Past
+        </p>
+
+        <p class="description tk-adelle alwaysshow">
+            Design, testing, and prototyping of problem selection features to encourage a mastery orientation in students.
+        </p>
+    </div>
+</div>
+<div class="wblock">
+    <div class="layer_container">
+        <img src="img/zack%20timeline-01.svg">
+        <img src="img/zack%20timeline-10.svg" class="layered_img" id="time3">
+    </div>
+    <div class="tblock">
+        <p class="title tk-adelle-sans">
+            Future
+        </p>
+
+        <p class="description tk-adelle alwaysshow">
+            Design, testing, and prototyping of problem selection features to encourage a mastery orientation in students.
+        </p>
+    </div>
+</div>
+</body>
+
+<script>
+    onscroll = function() {
+        var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+        if (scrollTop > 100) {
+                document.getElementById('time1').style.opacity = 1;
+        }
+        if (scrollTop > 500) {
+            document.getElementById('time2').style.opacity = 1;
+        }
+        if (scrollTop > 900) {
+            document.getElementById('time3').style.opacity = 1;
+        }
+    };
+</script>
+
+</html>

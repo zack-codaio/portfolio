@@ -2,10 +2,12 @@
     box-sizing:border-box;
 }
 html{
-font-family:"Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial;
+//font-family:"Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial;
     font-weight:100;
 }
 body{
+    font-family: "chaparral-pro";
+    font-weight:100;
     padding:0;
     margin:0;
     font-size:20px;
@@ -37,6 +39,10 @@ a:active{
     text-decoration: none;
 }
 
+.nodecoration{
+    color:black !important;
+    text-decoration:none;
+}
 
 .cblock{
     /*display:inline-block;*/
@@ -196,4 +202,21 @@ img + .tblock{
 
 .alwaysshow{
     display:block;
+}
+
+//about
+.portrait{
+    margin-top:15px;
+    width:100px;
+    height:100px;
+    border-radius:50px;
+    padding:0 !important;
+}
+
+.about_sidebar{
+    width:140px;
+    display:inline-block;
+    vertical-align:top;
+    padding-right:40px;
+
 }
