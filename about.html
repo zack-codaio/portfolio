@@ -16,46 +16,65 @@
     <a href="index.html">Home</a>
 </div>
 <div class="wblock">
-    <div>
-        <img src="img/zack%20timeline-06.svg">
+    <div class="layer_container">
+        <img src="img/zack%20timeline-01.svg">
+        <img src="img/zack%20timeline-09.svg" class="layered_img" id="time1">
     </div>
     <div class="tblock">
         <p class="title tk-adelle-sans">
             Present
         </p>
 
-        <p class="description tk-adelle">
+        <p class="description tk-adelle alwaysshow">
             Design, testing, and prototyping of problem selection features to encourage a mastery orientation in students.
         </p>
     </div>
 </div>
 <div class="wblock">
-    <div>
-        <img src="img/zack%20timeline-05.svg">
+    <div class="layer_container">
+        <img src="img/zack%20timeline-01.svg">
+        <img src="img/zack%20timeline-08.svg" class="layered_img" id="time2">
     </div>
     <div class="tblock">
         <p class="title tk-adelle-sans">
             Past
         </p>
 
-        <p class="description tk-adelle">
+        <p class="description tk-adelle alwaysshow">
             Design, testing, and prototyping of problem selection features to encourage a mastery orientation in students.
         </p>
     </div>
 </div>
 <div class="wblock">
-    <div>
-        <img src="img/zack%20timeline-07.svg">
+    <div class="layer_container">
+        <img src="img/zack%20timeline-01.svg">
+        <img src="img/zack%20timeline-10.svg" class="layered_img" id="time3">
     </div>
     <div class="tblock">
         <p class="title tk-adelle-sans">
             Future
         </p>
 
-        <p class="description tk-adelle">
+        <p class="description tk-adelle alwaysshow">
             Design, testing, and prototyping of problem selection features to encourage a mastery orientation in students.
         </p>
     </div>
 </div>
 </body>
+
+<script>
+    onscroll = function() {
+        var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+        if (scrollTop > 100) {
+                document.getElementById('time1').style.opacity = 1;
+        }
+        if (scrollTop > 500) {
+            document.getElementById('time2').style.opacity = 1;
+        }
+        if (scrollTop > 900) {
+            document.getElementById('time3').style.opacity = 1;
+        }
+    };
+</script>
+
 </html>
