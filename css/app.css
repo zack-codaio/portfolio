@@ -64,7 +64,7 @@ a:active {
 .wblock {
   margin: auto;
   width: 100%;
-  max-width: 700px;
+  max-width: 1000px;
   padding-bottom: 60px;
   padding-top: 60px; }
 
@@ -74,7 +74,7 @@ a:active {
   padding-right: 15px; }
 
 .wblock .tblock {
-  max-width: 500px;
+  max-width: 700px;
   border: none; }
 
 .layer_container {
@@ -117,8 +117,7 @@ img + .tblock {
 @media (min-width: 520px) {
   .tblock {
     padding-left: 0;
-    padding-right: 0;
-    border-bottom: 1px solid #aaa; }
+    padding-right: 0; }
 
   img + .tblock {
     border-bottom: none;
@@ -157,7 +156,11 @@ img + .tblock {
     margin-top: -10px; }
 
   h1 {
-    font-size: 48px; } }
+    font-size: 48px; }
+
+  .navcontent {
+    max-width: 900px;
+    margin: auto; } }
 @media (min-width: 1026px) {
   .tblock {
     padding-left: 0;
@@ -179,9 +182,25 @@ img + .tblock {
   padding: 0 !important; }
 
 .about_sidebar {
-  width: 140px;
+  width: 200px;
   display: inline-block;
   vertical-align: top;
-  padding-right: 40px; }
+  padding-right: 100px; }
+
+.navbar {
+  padding: 10px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: white;
+  border-bottom: 1px solid gray;
+  text-align: center; }
+
+.navitem {
+  margin-right: 20px; }
+
+.navitem:first-of-type {
+  margin-right: 0; }
 
 /*# sourceMappingURL=app.css.map */
