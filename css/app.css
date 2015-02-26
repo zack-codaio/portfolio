@@ -103,9 +103,6 @@ img + .tblock {
   max-width: 620px; }
 
 @media (max-width: 519px) {
-  .description {
-    display: none; }
-
   .myname {
     margin-top: 10px; }
 
