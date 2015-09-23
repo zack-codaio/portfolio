@@ -94,7 +94,7 @@ img + .tblock {
 .title {
   margin-top: 0;
   margin-bottom: 10px;
-  font-weight: normal; }
+  font-weight: 700; }
 
 .description {
   margin-top: 10px; }
@@ -107,10 +107,7 @@ img + .tblock {
     margin-top: 10px; }
 
   .cblock {
-    padding-top: 0; }
-
-  .cblock:first-of-type {
-    padding-bottom: 0; } }
+    padding-top: 0; } }
 @media (min-width: 520px) {
   .tblock {
     padding-left: 0;
@@ -191,7 +188,6 @@ img + .tblock {
   left: 0;
   right: 0;
   background: white;
-  border-bottom: 1px solid gray;
   text-align: center; }
 
 .navitem {
@@ -199,5 +195,13 @@ img + .tblock {
 
 .navitem:first-of-type {
   margin-right: 0; }
+
+.cblock:first-of-type {
+  padding-bottom: 0;
+  padding-bottom: 0px;
+  margin-bottom: 30px; }
+
+#header_div {
+  background: #efefef; }
 
 /*# sourceMappingURL=app.css.map */

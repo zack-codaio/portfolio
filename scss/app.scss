@@ -105,7 +105,8 @@ img + .tblock{
 .title{
     margin-top:0;
     margin-bottom:10px;
-    font-weight:normal;
+//    font-weight:normal;
+    font-weight:700;
 }
 .description{
     margin-top:10px;
@@ -127,9 +128,7 @@ img + .tblock{
     .cblock{
         padding-top:0;
     }
-    .cblock:first-of-type{
-        padding-bottom:0;
-    }
+
 
 }
 
@@ -236,7 +235,7 @@ img + .tblock{
     left:0;
     right:0;
     background:white;
-    border-bottom:1px solid gray;
+//    border-bottom:1px solid gray;
     text-align:center;
 }
 .navlogo{
@@ -247,4 +246,14 @@ img + .tblock{
 }
 .navitem:first-of-type{
     margin-right:0;
+}
+
+.cblock:first-of-type{
+  padding-bottom:0;
+  padding-bottom:0px;
+  margin-bottom:30px;
+}
+
+#header_div{
+  background:#efefef;
 }
