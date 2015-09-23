@@ -207,4 +207,10 @@ img + .tblock {
 #header_div {
   background: #efefef; }
 
+.tblock:hover > .title {
+  color: #2ba7ff; }
+
+.title {
+  transition: color .3s; }
+
 /*# sourceMappingURL=app.css.map */
