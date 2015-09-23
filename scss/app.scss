@@ -116,6 +116,12 @@ img + .tblock{
     max-width:620px;
 }
 
+.cblock:first-of-type{
+  padding-bottom:0;
+  padding-bottom:0px;
+  margin-bottom:80px;
+}
+
 
 
 @media(max-width:519px){
@@ -153,6 +159,9 @@ img + .tblock{
         font-size:24px;
 
     }
+  .cblock:first-of-type{
+    padding-bottom:40px;
+  }
 }
 
 @media (min-width: 1006px){
@@ -162,7 +171,7 @@ img + .tblock{
         max-width:1000px;
     }
     .cblock:first-of-type{
-        padding-bottom:30px;
+        padding-bottom:60px;
     }
     .tblock{
         padding-left:15px;
@@ -248,11 +257,7 @@ img + .tblock{
     margin-right:0;
 }
 
-.cblock:first-of-type{
-  padding-bottom:0;
-  padding-bottom:0px;
-  margin-bottom:30px;
-}
+
 
 #header_div{
   background:#efefef;
